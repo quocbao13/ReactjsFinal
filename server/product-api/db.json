@@ -1,0 +1,177 @@
+{
+  "products": [
+    {
+      "name": "Giày Búp Bê Đính Nơ - GBB 0406 - Màu Đen",
+      "status": "Giày Búp Bê Đính Nơ - GBB 0406 - Màu Đen",
+      "price": "470000",
+      "sale": "4",
+      "image": "/images/giaybupbe1.jpg",
+      "n_category": "Búp bê",
+      "tinhtranghang": true,
+      "trangthai": "Mới",
+      "id": 1
+    },
+    {
+      "name": "Giày Búp Bê Đính Nơ - GBB 0406 - Màu Xanh Bạc Hà",
+      "status": "Giày Búp Bê Đính Nơ - GBB 0406 - Màu Xanh Bạc Hà",
+      "number": "4",
+      "price": "370000",
+      "sale": "20",
+      "image": "/images/giaybupbe2.jpg",
+      "n_category": "Búp bê",
+      "tinhtranghang": true,
+      "trangthai": "Hot",
+      "id": 2
+    },
+    {
+      "name": "Giày Búp Bê GBB 0395 - Màu Bạc",
+      "status": "Giày Búp Bê GBB 0395 - Màu Bạc",
+      "number": "3",
+      "price": "350000",
+      "sale": "24",
+      "image": "/images/31983_1512041366-medium@2x.jpg",
+      "n_category": "Búp bê",
+      "tinhtranghang": true,
+      "trangthai": "Khuyến mãi",
+      "id": 4
+    },
+    {
+      "name": "Giày Búp Bê Trang Trí Vòng Metallic Tròn - GBB 0413 - Màu Cam Đậm",
+      "status": "Giày Búp Bê Trang Trí Vòng Metallic Tròn - GBB 0413 - Màu Cam Đậm",
+      "number": "2",
+      "price": "570000",
+      "sale": "0",
+      "image": "/images/49541_1570515223-medium@2x.jpg",
+      "n_category": "Búp bê",
+      "tinhtranghang": true,
+      "trangthai": "Mới",
+      "id": 5
+    },
+    {
+      "name": "Giày Sandal T-strap Phối Nơ - SDX 0415 - Màu Đỏ Đậm",
+      "status": "Giày Sandal T-strap Phối Nơ - SDX 0415 - Màu Đỏ Đậm",
+      "number": "3",
+      "price": "240000",
+      "sale": "10",
+      "image": "/images/49973_1572588047-medium@2x.jpg",
+      "n_category": "Sandal",
+      "tinhtranghang": true,
+      "trangthai": "Hot",
+      "id": 6
+    },
+    {
+      "name": "Sandal Đế Xuồng Vân Gỗ - SDX 0416 - Màu Trắng",
+      "status": "Sandal Đế Xuồng Vân Gỗ - SDX 0416 - Màu Trắng",
+      "number": "0",
+      "price": "455000",
+      "sale": "20",
+      "image": "/images/49878_1571999991-medium@2x.jpg",
+      "n_category": "Sandal",
+      "tinhtranghang": false,
+      "trangthai": "Hot",
+      "id": 7
+    },
+    {
+      "name": "Sandal Đế Xuồng Vân Gỗ - SDX 0416 - Màu Đen",
+      "status": "Sandal Đế Xuồng Vân Gỗ - SDX 0416 - Màu Đen",
+      "number": "3",
+      "price": "525000",
+      "sale": "30",
+      "image": "/images/49875_1571999940-medium@2x.jpg",
+      "n_category": "Sandal",
+      "tinhtranghang": true,
+      "trangthai": "Khuyến mãi",
+      "id": 8
+    },
+    {
+      "name": "Giày Sneaker Chần Bông Đính Kim Loại - SNK 0026 - Màu Đen",
+      "status": "Giày Sneaker Chần Bông Đính Kim Loại - SNK 0026 - Màu Đen",
+      "number": "3",
+      "price": "345000",
+      "sale": "10",
+      "image": "/images/49591_1570526917-medium@2x.jpg",
+      "n_category": "Thể thao",
+      "tinhtranghang": true,
+      "trangthai": "Mới",
+      "id": 9
+    },
+    {
+      "name": "Giày Sneaker Vải Tweed - SNK 0027 - Màu Đen",
+      "status": "Giày Sneaker Vải Tweed - SNK 0027 - Màu Đen",
+      "number": "",
+      "price": "695000",
+      "sale": "30",
+      "image": "/images/48330_1564564411-medium@2x.jpg",
+      "n_category": "Thể thao",
+      "tinhtranghang": false,
+      "trangthai": "Hot",
+      "id": 10
+    },
+    {
+      "name": "Giày Sneaker Họa Tiết Nhiệt Đới - SNK 0025 - Màu Vàng",
+      "status": "Giày Sneaker Họa Tiết Nhiệt Đới - SNK 0025 - Màu Vàng",
+      "number": "",
+      "price": "675000",
+      "sale": "42",
+      "image": "/images/47591_1561827362-medium@2x.jpg",
+      "n_category": "Thể thao",
+      "tinhtranghang": true,
+      "trangthai": "Mới",
+      "id": 11
+    },
+    {
+      "name": "Giày Sneaker Phối Lưới - SNK 0006 - Màu Trắng",
+      "status": "Giày Sneaker Phối Lưới - SNK 0006 - Màu Trắng",
+      "number": "",
+      "price": "700000",
+      "sale": "20",
+      "image": "/images/46240_1556771588-medium@2x.jpg",
+      "n_category": "Thể thao",
+      "tinhtranghang": true,
+      "trangthai": "Khuyến mãi",
+      "id": 12
+    },
+    {
+      "name": "Sandal ABC",
+      "status": "ABC",
+      "number": "",
+      "price": "20",
+      "sale": "3",
+      "image": "/images/49878_1571999991-medium@2x.jpg",
+      "n_category": "Sandal",
+      "tinhtranghang": true,
+      "trangthai": "Khuyến mãi",
+      "id": 13
+    }
+  ],
+  "category": [
+    {
+      "name": "Thể thao",
+      "id": 1
+    },
+    {
+      "name": "Sandal",
+      "id": 2
+    },
+    {
+      "name": "Dép",
+      "id": 3
+    },
+    {
+      "name": "Boot",
+      "id": 5
+    },
+    {
+      "name": "Búp bê",
+      "id": 6
+    },
+    {
+      "name": "Kith",
+      "id": 7
+    },
+    {
+      "name": "Zoe",
+      "id": 8
+    }
+  ]
+}

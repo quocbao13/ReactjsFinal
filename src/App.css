@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+}
+.image{
+  height: 220px;
+}
+h1{
+  color: white;
+  text-shadow: 2px 2px 10px #000;
+}
+.App-logo {
+  height: 40vmin;
+}
+.price{
+  float: left;
+}
+.bg{
+    background:#0abfbc;}
+.sale{
+  float: left;
+}
+
+.card{
+  float: left;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.search{
+  margin-left: 30px;
+  width: 90%;
+}
+
+.price{
+  color: red;
+  font-size: 25px;
+}
+
+p{
+  font-size: 15px;
+}
+p.loaimay{
+  border-right: 1px solid black;
+}
+.mb-3{
+  width: 1050px;
+}
+.ul{
+  clear: left;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.btn-group{
+
+  width: 130px;
+  height: 50px;
+}
+.khung{
+  border: 1px solid gray;
+  margin-top: 10px;
+  height: auto;
+}
+.xemchitiet{
+  margin-left: 20px;
+}
+.button_margin{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.img-hover-zoom img {
+  transform-origin: 65% 75%;
+  transition: transform 1s, filter .5s ease-out;
+}
+
+/* The Transformation */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+.img-hover-zoom {
+  position: relative;
+}
+.style{
+  position: absolute;
+  left: 255px;
+  bottom: 160px;
+}
+.style img{
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+.navbar .collapse .form-inline button:hover{
+  background: no-repeat;
+  border: 1px solid #fc354c;
+  color: #fc354c;
+}
+.panel label{
+  line-height: 35px;
+}
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.footer {
+    padding: 60px 0;
+}
+
+.footer .section-title {
+    text-align: center;
+    color: #0abfbc;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.footer {
+    background: #0abfbc !important;
+}
+.footer h5{
+  padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.footer ul.social li{
+  padding: 3px 0;
+}
+.footer ul.social li a i {
+    margin-right: 5px;
+  font-size:25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+.footer ul.social li:hover a i {
+  font-size:30px;
+  margin-top:-10px;
+}
+.footer ul.social li a,
+.footer ul.quick-links li a{
+  color:#ffffff;
+}
+.footer ul.social li a:hover{
+  color:#eeeeee;
+}
+.footer ul.quick-links li{
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+.footer ul.quick-links li:hover{
+  padding: 3px 0;
+  margin-left:5px;
+  font-weight:700;
+}
+.footer ul.quick-links li a i{
+  margin-right: 5px;
+}
+.footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+  .footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}

@@ -1,0 +1,170 @@
+
+.border-bottom .navbar .collapse ul li:hover .nav-link{
+  color: #DD0000;
+  transition: 0.2s;
+}
+.hovereffect .sale-flash b{
+  position: absolute;
+  margin-top: 0px;
+  display: block;
+  width: 60px;
+  height: 25px;
+  background: #0abfbc;
+  left: 0px;
+  font-size: 14px;
+  color: white;
+  z-index: 2;   
+  font-weight: 550;
+  line-height: 25px;
+  text-align: center;
+}
+
+.hovereffect:hover .sale-flash b{
+  background: #fc354c;
+  transition:  0.2s;
+}
+.hovereffect:hover h6{
+  color: #fc354c;
+  transition:  0.2s;
+}
+.hovereffect h6{
+  text-align: left;
+  left: 0;
+  padding: 0;
+}
+.hovereffect .trangthai-flash b{
+  position: absolute;
+  margin-top: 0px;
+  display: block;
+  width: 105px;
+  height: 25px;
+  background: #0abfbc;
+  right: 0px;
+  font-size: 16px;
+  color: white;
+  z-index: 2;   
+  font-weight: 550;
+  line-height: 25px;
+  text-align: center;
+}
+.hovereffect:hover .trangthai-flash b{
+  background: #fc354c;
+  transition:  0.2s;
+}
+.hovereffect {
+  width: 250px;
+  height: 300px;
+  margin-bottom: 30px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.fa-shopping-cart{
+  border: 8px solid white;
+  
+  color:black;
+  margin:5px;
+
+}
+
+.fa-heart{
+  border: 8px solid white;
+  background: white;
+  color:black;
+  margin:5px;
+}
+
+.fa-eye{
+  border: 8px solid white;
+  background: white;
+  color:black;
+  margin:5px;
+}
+
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 23%;
+  left: 10%;
+  top: 70%;
+ 
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+
+
+.overlay .navs{
+  text-decoration:none;
+}
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  height: 250px;
+  width: 250px;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(1);
+  -webkit-filter: brightness(1);
+}
+.alert1{
+  margin-left: 55px;
+  float: left;
+}
+.alert2{
+  float: left;
+}
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect NavLink, .hovereffect p {
+  color: orange;
+  padding: 1em 0;
+  opacity: 0;
+  margin-top: 0px;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover NavLink, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
